@@ -1,0 +1,185 @@
+c<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fav Food</title>
+    <style>
+        .p{
+            display:flex;
+            width:100%;
+            justify-content: space-around;
+            background-color: lightgray;
+        }
+        .p1{
+            background-color: black;
+            text-align: center;
+            color:white;
+            margin-top: -20px;
+        }
+        .arc{
+            background-color: black;
+            margin-top: -20px;
+        }
+        .gridcontainer{
+            display:grid;
+            grid-template-columns: auto auto auto;
+            column-gap: 50px;
+            background-color: black;
+            padding: 10px;
+        }
+        .g1{
+            background-color: white;
+            border: 10px 100px 20px 100px solid black;
+            border-radius: 10px;
+            padding: 0%;
+            font-size: x-small;
+            text-align: center;
+            text-align-last: center;
+            color:black;
+        }
+        .g2{
+            background-color: white;
+            border: 10px 100px 20px 100px solid black;
+            border-radius: 10px;
+            padding: 0%;
+            font-size: x-small;
+            text-align: center;
+            text-align-last: center;
+            color:black;
+        }
+        .g3{
+            background-color: white;
+            border: 10px 100px 20px 100px solid black;
+            border-radius: 10px;
+            padding: 0%;
+            font-size: x-small;
+            text-align: center;
+            text-align-last: center;
+            color:black;
+        }
+        .sym{
+            background-color: red;
+            border-radius: 100%;
+            display: inline;
+        }
+        .sym1{
+            background-color: red;
+            border-radius: 100%;
+            display: inline;
+        }
+        .sym2{
+            background-color: red;
+            border-radius: 100%;
+            display: inline;
+        }
+        .last{
+            background-color: lightgray;
+        }
+        .hi{
+            background-color: black;
+            text-align: center;
+        }
+        #bo{
+            display:flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="p">
+    <h6 style="color:Red;">Name</h6>
+    <pre><p style="text-align-last: right;">Home  about us  Achievements  Skills  Contact</p></pre>
+    </div>
+    <div class="p1">
+        <h2 style="text-decoration:line-through;">Practice Makes Perfect</h2>
+        <h2>Perfect Perfect Makes Perfect</h2>
+    </div>
+    <div style="background-color:lightgray;padding:100px;margin-top: -20px;">
+        <h4>Name</h4>
+        <p style="text-align-last:left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu quam massa. Sed congue sapien sit amet cursus molestie. sed posuere nisl quis nibh volutpat effcitur. vivamus vitae dui ipsum. Donec vitae interdum eros, at eleifend mi. Suspendisse potenti. Cras<br>
+        aliquam consectetur posuere. Duis volutpat fringilla turpis, ac rutrum lacus faucibus vel.</p>
+    </div>
+    <div class="arc">
+        <p style="text-align:center;color:white">Achievements</p>
+        <p style="text-align:center;color:lightcyan;border">Some of my best projects so far</p>
+        <div class="gridcontainer">
+            <div class="g1">
+            <p class="sym"><|></p>
+            <h2>School Cricket Team Captain</h2>
+            <p>Lorem ipsum dooor sit amet consectetur<br>
+            adipisicing elit Et</p>
+            </div>
+            <div class="g1">
+               <p class="sym1"><|></p>
+               <h2>School First</h2>
+               <p>Lorem ipsum dolor,sit amet<br>
+             consectetur adipiscing elit Animi</p> 
+            </div>
+            <div class="g1">
+                <p class="sym2"><|></p>
+                <h2>YouTuber</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur<br>
+                 adipisicing elit. Magnam aut impedit!</p>
+                 </div>
+        </div>
+    </div>
+    <section id="bo">
+    <div>
+        <h5 style="text-align-last:center ;margin-top:-1px;">Skills</h5>
+        <h4 style="text-align:left;">TECHNICAL SKILLS</h4><br>
+        <ul style="list-style-type:none;" >
+            <li>HTML</li>
+            <div><progress  max="100" value=80></progress></div>
+            <li>CSS</li>
+            <div ><progress max="100" value=70></progress></div>
+            <li>JavaScript</li>
+            <div ><progress max="100" value=60></progress></div>
+            <li>C++</li>
+            <div ><progress max="100" value=90></progress></div>
+            <li>Java</li>
+            <div ><progress max="100" value=80></progress></div>
+
+        </ul>
+</div>
+<div>
+    <h4 style="text-align:right;">LANGUAGE SKILLS</h4><br>
+    <ul style="list-style-type:none;" >
+        <li>English</li>
+        <div><progress  max="100" value=80></progress></div>
+        <li>Tamil</li>
+        <div ><progress max="100" value=70></progress></div>
+        <li>Hindi</li>
+        <div ><progress max="100" value=60></progress></div>
+        <li>Telugu</li>
+        <div ><progress max="100" value=90></progress></div>
+        <li>Malayalam</li>
+        <div ><progress max="100" value=80></progress></div>
+
+    </ul>
+</div>
+</section>
+       
+
+
+
+
+
+
+
+
+        <div class="hi">
+            <h5 style="color:white">Contact</h5>
+            <form>
+              <input type="text" value="ENTER YOUR NAME"><br><br>
+              <input type="text" value="ENTER YOUR EMAIL"><br><br>
+              <input type="text" value="ENTER YOUR MESSAGE"><br><br>
+              <button>SEND MESSAGE</button>
+              </form>
+        </div>
+</body>
+</html>
